@@ -22,16 +22,20 @@ builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IJwtUtils, JwtUtils>();
 
+builder.Services.AddCors();
 
 
 // Configure the HTTP request pipeline.
 
-builder.Services.AddDbContext<DataBaseContext>();
+builder.Services.AddDbContext<DataBaseContext>(ServiceLifetime.Transient);
 
 var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.UseCors(builder => builder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader());
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

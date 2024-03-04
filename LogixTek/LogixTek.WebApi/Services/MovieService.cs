@@ -21,15 +21,15 @@ namespace LogixTek.WebApi.Services
             IList<Movie> movies = await _context.Movies.ToListAsync();
             List<MovieDto> movieDtos = _mapper.Map<List<MovieDto>>(movies);
 
-            movieDtos.ForEach(async x =>
+            for (int i = 0; i < movieDtos.Count; i++)
             {
-                var actioned = await GetMovieActionByMovieIdAsync(x.Id, userId);
-                x.NumberOfLike = await NumberOfLikedAsync(x.Id);
+                var actioned = await GetMovieActionByMovieIdAsync(movieDtos[i].Id, userId);
+                movieDtos[i].NumberOfLike = await NumberOfLikedAsync(movieDtos[i].Id);
                 if (actioned != null && actioned.IsActive.HasValue && actioned.IsActive.Value)
                 {
-                    x.Liked = actioned.Status == 1 ? true : false;
+                    movieDtos[i].Liked = actioned.Status == 1 ? true : false;
                 }
-            });
+            }
             return movieDtos;
         }
 
@@ -82,7 +82,8 @@ namespace LogixTek.WebApi.Services
 
         private async Task<int> NumberOfLikedAsync(int movieId)
         {
-            return await _context.MovieActions.Where(x => x.Id == movieId && x.IsActive.HasValue && x.IsActive.Value).CountAsync();
+              var result = await _context.MovieActions.Where(x => x.Id == movieId && x.IsActive.HasValue && x.IsActive.Value).CountAsync();
+            return result;
         }
     }
 }

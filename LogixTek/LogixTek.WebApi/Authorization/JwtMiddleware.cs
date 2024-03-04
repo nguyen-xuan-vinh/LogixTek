@@ -17,7 +17,7 @@ namespace LogixTek.WebApi.Authorization
             var userId = jwtUtils.ValidateToken(token);
             if (userId != null)
             {
-                context.Items["User"] = userService.GetUserByIdAsync(userId.Value);
+                context.Items["User"] = await userService.GetUserByIdAsync(userId.Value);
             } 
 
             await _next(context);
