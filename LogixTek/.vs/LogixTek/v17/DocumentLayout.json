@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LogixTek\\LogixTek\\LogixTek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\models\\userregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\models\\userregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\models\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\models\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\models\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\models\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|d:\\logixtek\\logixtek\\logixtek\\logixtek.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{824730E4-ACA0-430E-B7FC-DBD445C50EFD}|LogixTek.WebApi\\LogixTek.WebApi.csproj|solutionrelative:logixtek.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Controllers\\MovieController.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:15:21.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:15:21.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Services\\UserService.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Services\\UserService.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Services\\UserService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:14:59.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRegisterRequest.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Models\\UserRegisterRequest.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Models\\UserRegisterRequest.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Models\\UserRegisterRequest.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Models\\UserRegisterRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:14:51.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Models\\Dtos\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Models\\Dtos\\UserLoginDto.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Models\\Dtos\\UserLoginDto.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Models\\Dtos\\UserLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:14:49.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Models\\Dtos\\MovieDto.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Models\\Dtos\\MovieDto.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Models\\Dtos\\MovieDto.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Models\\Dtos\\MovieDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:16.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserLoginRequest.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Models\\UserLoginRequest.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Models\\UserLoginRequest.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Models\\UserLoginRequest.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Models\\UserLoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:14.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Services\\MovieService.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Services\\MovieService.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Services\\MovieService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:12.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Program.cs",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Program.cs",
+              "RelativeToolTip": "LogixTek.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:07.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LogixTek.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T09:12:45.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "LogixTek.WebApi\\appsettings.Development.json",
+              "ToolTip": "D:\\LogixTek\\LogixTek\\LogixTek\\LogixTek.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "LogixTek.WebApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T09:12:33.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
