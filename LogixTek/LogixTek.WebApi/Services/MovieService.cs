@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using LogixTek.WebApi.Constant;
 using LogixTek.WebApi.Entities;
 using LogixTek.WebApi.Models.Dtos;
 using LogixTek.WebApi.Services.Interface;
@@ -35,22 +36,18 @@ namespace LogixTek.WebApi.Services
 
         public async Task<bool> LikeMovieAsync(int movieId, int userId, bool like)
         {
-            var actioned = await GetMovieActionByMovieIdAsync(movieId, userId);
+            MovieAction actioned = await GetMovieActionByMovieIdAsync(movieId, userId);
             try
             {
                 if (actioned != null)
                 {
-                    if (actioned.Status == 1)
+                    if (actioned.Status == MovieStatusConstant.Like && like)
                     {
-
-                        if (like)
-                        {
-                            actioned.IsActive = false;
-                        }
-                        else
-                        {
-                            actioned.Status = 2;
-                        }
+                        actioned.IsActive = false;
+                    }
+                    else
+                    {
+                        actioned.Status = MovieStatusConstant.Dislike;
                     }
                     _context.MovieActions.Update(actioned);
                 }
@@ -60,7 +57,7 @@ namespace LogixTek.WebApi.Services
                     movieAction.MovieId = movieId;
                     movieAction.ByUserId = userId;
                     movieAction.IsActive = true;
-                    movieAction.Status = 1;
+                    movieAction.Status = MovieStatusConstant.Like;
                     await _context.MovieActions.AddAsync(movieAction);
                     
                 }
@@ -76,14 +73,12 @@ namespace LogixTek.WebApi.Services
 
         private async Task<MovieAction> GetMovieActionByMovieIdAsync(int movieId, int userId)
         {
-            var result = await _context.MovieActions.SingleOrDefaultAsync(x => x.MovieId == movieId && x.ByUserId == userId);
-            return result;
+           return await _context.MovieActions.SingleOrDefaultAsync(x => x.MovieId == movieId && x.ByUserId == userId);
         }
 
         private async Task<int> NumberOfLikedAsync(int movieId)
         {
-              var result = await _context.MovieActions.Where(x => x.Id == movieId && x.IsActive.HasValue && x.IsActive.Value).CountAsync();
-            return result;
+            return await _context.MovieActions.Where(x => x.Id == movieId && x.IsActive.HasValue && x.IsActive.Value).CountAsync();
         }
     }
 }

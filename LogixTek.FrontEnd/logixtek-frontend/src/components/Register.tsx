@@ -52,11 +52,11 @@ const Register: React.FC = () => {
         const { username, name, password } = formValue;
 
         register(username, name, password).then(
-            (response) => {
+            (response: any) => {
                 setMessage(response.data.message);
                 setSuccessful(true);
             },
-            (error) => {
+            (error: any) => {
                 const resMessage =
                     (error.response &&
                         error.response.data &&
@@ -73,11 +73,6 @@ const Register: React.FC = () => {
     return (
         <div className="col-md-12">
             <div className="card card-container">
-                <img
-                    src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
-                    alt="profile-img"
-                    className="profile-img-card"
-                />
                 <Formik
                     initialValues={initialValues}
                     validationSchema={validationSchema}

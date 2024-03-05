@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 import authHeader from "./auth-header";
 
 const API_URL = "https://localhost:7278/api/Movie/";
@@ -11,8 +11,8 @@ const getUserId = () => {
     return user?.id
 }
 
-export const getAll = (userId: any) => {
-  return axios.get(API_URL + "getall/" + userId ?? getUserId(), { headers: authHeader() });
+export const getAll = () => {
+  return axios.get(API_URL + "getall/" + getUserId(), { headers: authHeader() });
 };
 
   export const dislike = () => {

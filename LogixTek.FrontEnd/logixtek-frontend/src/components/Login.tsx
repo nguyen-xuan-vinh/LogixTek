@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavigateFunction, useNavigate } from 'react-router-dom';
+import { NavigateFunction, useNavigate, Link } from 'react-router-dom';
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
@@ -34,10 +34,10 @@ const Login: React.FC<Props> = () => {
 
     login(username, password).then(
       () => {
-        navigate("/profile");
+        navigate("/movie");
         window.location.reload();
       },
-      (error) => {
+      (error: any) => {
         const resMessage =
           (error.response &&
             error.response.data &&
@@ -54,11 +54,6 @@ const Login: React.FC<Props> = () => {
   return (
     <div className="col-md-12">
       <div className="card card-container">
-        <img
-          src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
-          alt="profile-img"
-          className="profile-img-card"
-        />
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
@@ -92,8 +87,15 @@ const Login: React.FC<Props> = () => {
                 )}
                 <span>Login</span>
               </button>
+              <div className="form-group">
+               <p className="card-text pb-2">
+                      Have an Account?{" "}
+                      <Link style={{ textDecoration: "none" }} to={"/register"}>
+                        Sign Up
+                      </Link>
+                    </p>
+             </div>
             </div>
-
             {message && (
               <div className="form-group">
                 <div className="alert alert-danger" role="alert">

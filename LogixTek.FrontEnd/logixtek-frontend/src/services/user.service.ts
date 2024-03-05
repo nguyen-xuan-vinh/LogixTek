@@ -1,3 +1,4 @@
+
 import axios from 'axios';
 
 const API_URL = "https://localhost:7278/api/User/";
@@ -16,15 +17,9 @@ export const login = (username: string, password: string) => {
             username,
             password,
         })
-        .then((response) => {
+        .then((response: any) => {
             if (response.data.token) {
                 localStorage.setItem("user", JSON.stringify(response.data));
-
-                axios.get("https://localhost:7278/api/Movie/getall/" + response.data.id, { headers: response.data.token }).then((res) => {
-                    if (res.data) {
-                        localStorage.setItem("movies", JSON.stringify(res.data));
-                    }
-                });
             }
 
             return response.data;
